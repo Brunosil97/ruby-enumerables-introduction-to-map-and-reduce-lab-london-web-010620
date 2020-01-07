@@ -58,10 +58,6 @@ def map_to_no_change(source_array)
      total += source_array[counter] 
      counter += 1
    end 
-   while counter < starting_point.size do 
-     total += starting_point[counter]
-     counter += 1
-   end 
    total 
  end 
  
